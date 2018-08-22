@@ -1,1 +1,1 @@
-# An-Attentive-Neural-Sequence-Labeling-Model-for-Adverse-Drug-Reactions-Mentions-Extraction
+# An-Attentive-Neural-Model-for-labeling-Adverse-Drug-Reactions
