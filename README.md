@@ -34,4 +34,12 @@ We have twitter_adr/data_processing.py and pubmed_adr/data_processing.py to proc
 
 ## Model
 
-The twitter_adr/model.py and pubmed_adr/model.py are the model code to generate the predictions, and approximateMatch.py is the script which adopts approximate matching and prints the results of the model. 
+The twitter_adr/model.py and pubmed_adr/model.py are the model code to generate the predictions, and approximateMatch.py is the script which adopts approximate matching and prints the results of the model.
+
+## Results
+
+![results](https://github.com/Deep1994/An-Attentive-Neural-Model-for-labeling-Adverse-Drug-Reactions/raw/master/results/results.jpg)
+
+This is the result obtained by our model. The F1 on the Twitter dataset is about 0.84, which is more than 10% of the previous SOTA (state-of-the-art), and the F1 on the PubMed dataset is about 0.91, which is more than the previous SOTA about 5%. Due to randomness of the result, it is recommended to run the model several times and average their results.
+
+Because our model is essentially focusing on a sequence labeling task, it can be generalized to any token level classification tasks, such as Named Entity Recognition (NER), Part Of Speech tagging (POS taging). Next I want to validate our model on some larger datasets and explore the magical effects of pre-training.
