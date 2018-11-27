@@ -1,0 +1,1 @@
+download the word embedding file from http://nlp.stanford.edu/data/glove.840B.300d.zip and put it here.
