@@ -28,4 +28,6 @@ Please get these two datasets ready and put them to twitter_adr/data and pubmed_
 
 For both datasets, we use the pretrained [GloVe 300d](http://nlp.stanford.edu/data/glove.840B.300d.zip) word embedding, please download it and put it to twitter_adr/embeddings.
 
+## Data processing
 
+We have twitter_adr/data_processing.py and pubmed_adr/data_processing.py to process the two datasets, respectively.
