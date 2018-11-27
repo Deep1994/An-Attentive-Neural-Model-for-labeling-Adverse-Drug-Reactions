@@ -31,3 +31,7 @@ For both datasets, we use the pretrained [GloVe 300d](http://nlp.stanford.edu/da
 ## Data processing
 
 We have twitter_adr/data_processing.py and pubmed_adr/data_processing.py to process the two datasets, respectively.
+
+## Model
+
+The twitter_adr/model.py and pubmed_adr/model.py are the model code to generate the predictions, and approximateMatch.py is the script which adopts approximate matching and prints the results of the model. 
