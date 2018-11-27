@@ -14,9 +14,18 @@ You can find more details (in Chinese) about our paper via my blog: [Sequence la
 + [Keras](http://keras-cn.readthedocs.io/en/latest/) (deep learning library, verified on 2.1.3)
 + [NLTK](http://www.nltk.org/) (NLP tools, verified on 3.2.1)
 
-## Datasets
+## Something you need to prepare before runing the code
+
+### Datasets
 
 We use two datasets in our paper, the first one is a Twitter dataset, which is used in paper [Deep learning for pharmacovigilance: recurrent neural network architectures for labeling adverse drug reactions in Twitter posts](https://academic.oup.com/jamia/article/24/4/813/3041102), another dataset is called ADE-Corpus-V2, which is used in paper [An Attentive Sequence Model for Adverse Drug Event Extraction from Biomedical Text](https://arxiv.org/abs/1801.00625) and availe online: [https://sites.google.com/site/adecorpus/home/document](https://sites.google.com/site/adecorpus/home/document).
 
 Because it is against Twitter's Terms of Service to publish the text of tweets, so we cannot provide the first Twitter dataset, you can obtain this dataset from the author of paper [Deep learning for pharmacovigilance: recurrent neural network architectures for labeling adverse drug reactions in Twitter posts](https://academic.oup.com/jamia/article/24/4/813/3041102) so that you can keep your dataset consistent with that used in our paper.
+
+Please get these two datasets ready and put them to twitter_adr/data and pubmed_adr/data, respectively. I have provided the PubMed dataset in pubmed_adr/data.
+
+### Word embedding
+
+For both datasets, we use the pretrained [GloVe 300d](http://nlp.stanford.edu/data/glove.840B.300d.zip) word embedding, please download it and put it to twitter_adr/embeddings.
+
 
